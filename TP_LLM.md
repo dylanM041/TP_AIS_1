@@ -9,7 +9,7 @@
     - oui, le contexte d’un LLM local peut être modifié, principalement en contrôlant les messages et les informations envoyés au modèle via son API ou son interface.
 
     - Avec un LLM local utilisant Ollama, on peut modifier le contexte de plusieurs façons:
-    -  - en modifiant le prompt système pour définir le comportement et les instructions du modèle ;
+       - en modifiant le prompt système pour définir le comportement et les instructions du modèle ;
     -  - en ajoutant, supprimant ou modifiant l’historique de conversation ;
     -  - en injectant dynamiquement des informations supplémentaires dans le prompt ;
     -  - en utilisant un système de RAG pour récupérer des informations pertinentes depuis une base de données ou des documents.
