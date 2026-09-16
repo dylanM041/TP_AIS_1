@@ -16,7 +16,7 @@
           - Ces modifications ne changent pas les paramètres internes du modèle : elles changent simplement les informations que le modèle reçoit au moment de répondre
 
 3) Comment faire ingérer à votre LLM local le contenu d'un dossier avec quelques PDF?
-   - Il est possible de fournir un dossier avec plusieurs fichiers à une IA, en l'occurence ici nous lui avons fournis plusieurs PDF, qu'il a su lire et résumé en quelques lignes[PDF](image.png)
+   - Il est possible de fournir un dossier avec plusieurs fichiers à une IA, en l'occurence ici nous lui avons fournis plusieurs PDF, qu'il a su lire et résumé en quelques lignes ![PDF](image-1.png)
 
 4) Comment modifier le comportement général de notre LLM Local à l'aide d'un fichier ?
 
