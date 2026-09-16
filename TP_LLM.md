@@ -3,8 +3,9 @@
 
 
 
-
+## Questionnaire 
 1) Expliciter la procédure pas à pas pour installer un WebGUI sur votre LLM local
+    - Installer docker sur le serveur afin d'isoler le service WebGui, puis installer WebGui dessus. Enfin, permettre a WebGui et Ollama de communiquer ensemble, notamment en ouvrant un port sur WebGui en l'occurence le port 11434 (http://host.docker.internal:11434).
 
 2) Peut on modifier le contexte d'un LLM local et si oui comment?
 
