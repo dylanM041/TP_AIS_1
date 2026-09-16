@@ -104,7 +104,7 @@
 - **VRAM**
   - mémoire graphique de la carte vidéo, ressource critique pour exécuter des LLM localement.
 - **Prompt Engineering**
-  - art de formuler des prompts pour optimiser la qualité des réponses d'un LLM..
+  - art de formuler des prompts pour optimiser la qualité des réponses d'un LLM.
  
    
 
