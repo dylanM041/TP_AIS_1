@@ -8,12 +8,12 @@
 2) Peut on modifier le contexte d'un LLM local et si oui comment?
     - oui, le contexte d’un LLM local peut être modifié, principalement en contrôlant les messages et les informations envoyés au modèle via son API ou son interface.
 
-    - Avec un LLM local utilisant Ollama, on peut modifier le contexte de plusieurs façons:
+  *  - Avec un LLM local utilisant Ollama, on peut modifier le contexte de plusieurs façons:
        - en modifiant le prompt système pour définir le comportement et les instructions du modèle ;
-    -  - en ajoutant, supprimant ou modifiant l’historique de conversation ;
-    -  - en injectant dynamiquement des informations supplémentaires dans le prompt ;
-    -  - en utilisant un système de RAG pour récupérer des informations pertinentes depuis une base de données ou des documents.
-    -  - Ces modifications ne changent pas les paramètres internes du modèle : elles changent simplement les informations que le modèle reçoit au moment de répondre
+       - en ajoutant, supprimant ou modifiant l’historique de conversation ;
+       - en injectant dynamiquement des informations supplémentaires dans le prompt ;
+       - en utilisant un système de RAG pour récupérer des informations pertinentes depuis une base de données ou des documents.
+       - Ces modifications ne changent pas les paramètres internes du modèle : elles changent simplement les informations que le modèle reçoit au moment de répondre
 
 3) Comment faire ingérer à votre LLM local le contenu d'un dossier avec quelques PDF?
    - Il est possible de fournir un dossier avec plusieurs fichiers à une IA, en l'occurence ici nous lui avons fournis plusieurs PDF, qu'il a su lire et résumé en quelques lignes ![PDF](image-1.png)
